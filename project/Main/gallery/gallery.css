@@ -1,0 +1,411 @@
+.table-a1 {
+  padding: 40px;
+  color: black;
+  font-weight: bolder;
+  table-layout: fixed;
+  width: 500px;
+}
+
+.table-a2 {
+  padding: 40px;
+  color: black;
+  font-weight: bolder;
+  table-layout: fixed;
+  width: 600px;
+}
+
+p {
+  max-width: 600px;
+  max-height: 300px;
+  width: 100%;
+  text-align: left;
+}
+
+li {
+  border: black;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+div.hehe {
+  color: black;
+  font-weight: bolder;
+}
+
+/*.Header
+{
+    border: 3px solid transparent ;
+    position: relative;
+    height: 500px;
+}*/
+.Content {
+  border: 3px solid transparent;
+  position: relative;
+  height: 300px;
+}
+
+.divA {
+  border: 3px solid transparent;
+  position: absolute;
+  margin-right: 25px;
+  left: 0px;
+  top: 5px;
+  bottom: 5px;
+  right: 70%;
+}
+
+.body {
+  background: #000;
+  /*  background-image:  url(https://monophy.com/media/XI7zX75GGNW5k6DejV/monophy.gif);*/
+  background-position: top center ,center right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 0 8%;
+  overflow-y: scroll;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #e3e3e3;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header h2 {
+  color: #e0e0e0;
+  font-style: italic;
+  font-size: 4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header .navbar a {
+  font-size: 2.7rem;
+  margin: 0 1rem;
+  color: #e2e2e2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+.header .navbar a:hover {
+  color: #e1f816;
+  background: #000;
+  opacity: 0.7;
+  padding: 1rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+section {
+  padding: 300px 0 100px 0;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .max-Width {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .greetings {
+  width: 50%;
+  padding: 2rem;
+}
+
+.home h3 {
+  color: white;
+  margin-top: 6rem;
+  font-size: 5rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.home p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #e1f816;
+  margin-top: 1rem;
+  font-size: 25px;
+}
+
+.btn {
+  color: #f4f4f4;
+  margin-top: 2rem;
+  padding: 5px;
+  background: #169a98;
+  border-radius: 4px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #156966;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.transparent {
+  background: #000;
+  opacity: 0.7;
+  padding: 1rem;
+  margin: 0;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+/*.divB
+{
+    border: 3px solid transparent;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    left: 30%;
+    margin-left: 25px;
+}
+
+
+.divB-V2
+{ 
+    border: 3px solid transparent;
+    position: absolute;
+    margin-right: 25px;
+    left: 0px;
+    top: 0px;
+    right: 20px;
+    padding: 1.5rem 6%;
+  
+}*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button.cus {
+  background-color: #169a98;
+  color: white;
+  padding: 12px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container-cus {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+.gall h1 {
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  -webkit-box-pack: top;
+      -ms-flex-pack: top;
+          justify-content: top;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery:hover .gallery__image {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.gallery__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+}
+
+.gallery__column:hover .gallery__image {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.gallery__thumb {
+  position: relative;
+}
+
+.gallery__image {
+  display: block;
+  width: 100%;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.gallery__image:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.space {
+  padding: 1rem;
+  z-index: 1;
+}
+
+.space2 {
+  padding-bottom: 1rem;
+}
+
+.sizing {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=gallery.css.map */
